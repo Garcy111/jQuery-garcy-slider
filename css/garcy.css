@@ -1,0 +1,18 @@
+#slider {
+	display: none;
+	position: relative;
+	width: 620px;
+	height: 480px;
+	background: url(../loader.gif) no-repeat center;
+}
+
+#slider img {
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#prev, #next {
+	display: none;
+}
