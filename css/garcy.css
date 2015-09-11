@@ -1,8 +1,8 @@
 #slider {
 	display: none;
 	position: relative;
-	width: 620px;
-	height: 480px;
+	width: 520px;
+	height: 380px;
 	background: url(../loader.gif) no-repeat center;
 }
 
