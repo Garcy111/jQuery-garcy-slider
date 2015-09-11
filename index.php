@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Garcy Slider</title>
     <link href="css/garcy.css" rel="stylesheet">
-    <script src="/js/jquery-2.1.1.min.js"></script>
+    <script src="http://yastatic.net/jquery/2.1.4/jquery.min.js"></script>
     <script src="/js/jquery-garcy-slider.js"></script>
   <body>
     <div class="container">
