@@ -1,22 +1,46 @@
+body {
+	background: #B2B2B2;
+}
+
 #slider {
 	display: none;
 	position: relative;
-	width: 520px;
-	height: 380px;
-	background: url(../loader.gif) no-repeat center;
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	background: #E0E0E0;
+	border-radius: 3px;
 }
 
 #slider img {
 	position: absolute;
+	display: block;
 	top: 0; left: 0;
-	height: 100%;
-	width: 100%;
+	height: 280px;
+	width: 540px;
+	padding: 10px 30px;
 }
 
 #prev, #next {
 	display: none;
-<<<<<<< HEAD
 }
-=======
+
+#prev, #next {
+	position: absolute;
+	top: 128px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	background: url(/arrow-prev.png) center;
+	background-size: 100%;
 }
->>>>>>> 088a8d37dd1b431a2eb253c0d81add62afdea247
+
+#next {
+	right: 3px;
+	background: url(/arrow-next.png) center;
+	background-size: 100%;
+}
+
+#prev {
+	left: 3px;
+}

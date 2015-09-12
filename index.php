@@ -10,9 +10,10 @@
     <script src="/js/jquery-garcy-slider.js"></script>
   <body>
     <div class="container">
-      <div id="slider"></div>
-        <button id="prev">prev</button>
-        <button id="next">next</button>
+      <div id="slider">
+        <div id="prev"></div>
+        <div id="next"></div>
+      </div>
         <script>
             var slider = new Slider($('#slider'), '/images/', 3000, true);
             slider.start();
